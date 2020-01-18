@@ -1,0 +1,2 @@
+API-99999=hệ thống lỗi
+API-00000=thành công

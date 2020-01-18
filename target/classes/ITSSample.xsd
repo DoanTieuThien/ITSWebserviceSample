@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:ftudef="http://ws.its.com/itsDataTypes"
+	targetNamespace="http://ws.its.com/itsDataTypes"
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+	<xsd:complexType name="RetResultType">
+		<xsd:sequence>
+			<xsd:element name="status" type="xsd:string" />
+			<xsd:element name="message" type="xsd:string" />
+			<xsd:element name="payload" type="xsd:anySimpleType" />
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>
